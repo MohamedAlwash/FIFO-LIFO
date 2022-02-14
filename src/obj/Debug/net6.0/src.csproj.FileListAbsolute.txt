@@ -1,0 +1,15 @@
+/Users/mohamed/Projects/FIFO-LIFO/src/bin/Debug/net6.0/src
+/Users/mohamed/Projects/FIFO-LIFO/src/bin/Debug/net6.0/src.deps.json
+/Users/mohamed/Projects/FIFO-LIFO/src/bin/Debug/net6.0/src.runtimeconfig.json
+/Users/mohamed/Projects/FIFO-LIFO/src/bin/Debug/net6.0/src.dll
+/Users/mohamed/Projects/FIFO-LIFO/src/bin/Debug/net6.0/ref/src.dll
+/Users/mohamed/Projects/FIFO-LIFO/src/bin/Debug/net6.0/src.pdb
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.csproj.AssemblyReference.cache
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.AssemblyInfoInputs.cache
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.AssemblyInfo.cs
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.csproj.CoreCompileInputs.cache
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.dll
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/ref/src.dll
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.pdb
+/Users/mohamed/Projects/FIFO-LIFO/src/obj/Debug/net6.0/src.genruntimeconfig.cache
