@@ -1,14 +1,15 @@
-﻿var queue = new StackQueue<int>(true);
-queue.Add(85);
-queue.Add(90);
-queue.Add(73);
-queue.Add(20);
+﻿var queue = new StackQueue<int>(false);
+// queue.Add(85);
+// queue.Add(90);
+// queue.Add(73);
+// queue.Add(20);
 
 
-// queue.show();
-// queue.Remove();
+// // queue.Remove();
 queue.Remove();
-Console.WriteLine(queue.Search(false));
+// queue.Add(26);
+// Console.WriteLine(queue.Search(true));
+// Console.WriteLine(queue.Search(false));
 
 static void Main(string[] args)
 {
@@ -29,34 +30,44 @@ public class StackQueue<T>
 
     public T Search(Boolean showFirstNumber = false)
     {
-        // if (showFirstNumber)
-        // {
-        //     // only possible to do that in Queue
-        //     return Array[Array.Count - 1];
-        // }
-        return Array[0];
+
+        try
+        {
+            if (showFirstNumber && !_Datastructure)
+            {
+                // only possible to do that in Queue, show first number after add
+                return Array[0];
+            }
+            return Array[Array.Count - 1];
+        }
+        catch (Exception e)
+        {
+            throw new Exception("You need to add first");
+        }
     }
 
     public void Add(T random)
     {
-        if (!_Datastructure)
-        {
-            Array.Add(random);
-        }
-        else
-        {
-            Array.Insert(0, random);
-        }
+        Array.Add(random);
     }
 
     public void Remove()
     {
-        // if (!_Datastructure)
-        // {
-        //     Array.RemoveAt(0);
-        // }else {
-        
-        // }
-        Array.RemoveAt(0);
+        try
+        {
+            if (!_Datastructure)
+            {
+                // remove the first number that is add to the Queue
+                Array.RemoveAt(0);
+            }
+            else
+            {
+                Array.RemoveAt(Array.Count - 1);
+            }
+        }
+        catch (Exception e)
+        {
+            throw new Exception("You need to add first");
+        }
     }
 }
