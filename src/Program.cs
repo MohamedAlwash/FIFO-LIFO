@@ -1,14 +1,14 @@
 ﻿var queue = new StackQueue<int>(false);
-// queue.Add(85);
-// queue.Add(90);
-// queue.Add(73);
-// queue.Add(20);
+queue.Add(85);
+queue.Add(90);
+queue.Add(73);
+queue.Add(20);
 
 
 // // queue.Remove();
 queue.Remove();
 // queue.Add(26);
-// Console.WriteLine(queue.Search(true));
+Console.WriteLine(queue.Search(true));
 // Console.WriteLine(queue.Search(false));
 
 static void Main(string[] args)
