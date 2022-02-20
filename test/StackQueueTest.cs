@@ -1,4 +1,3 @@
-
 using System;
 using Xunit;
 
@@ -64,8 +63,24 @@ public class StackQueueTest
         queue.Add(90);
 
         queue.Remove();
-        // show first number from Queue
+        // show first number from Queue after remove
         Assert.Equal(22, queue.Search(true));
+    }
+
+    [Fact]
+    public void RemoveQueueFirstNumberTest2()
+    {
+        var queue = new StackQueue<int>(false);
+
+        queue.Add(50);
+        queue.Add(22);
+        queue.Add(28);
+        queue.Add(90);
+
+        queue.Remove();
+        queue.Remove();
+        // show first number from Queue after remove
+        Assert.Equal(28, queue.Search(true));
     }
 
     [Fact]
@@ -79,7 +94,7 @@ public class StackQueueTest
         queue.Add(59);
 
         queue.Remove();
-        // show last number from Queue
+        // show last number from Queue after remove
         Assert.Equal(59, queue.Search(false));
     }
 
